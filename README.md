@@ -1,6 +1,6 @@
 # npmtest-clipboard-js
 
-#### test coverage for  [clipboard-js (v0.3.3)](https://github.com/lgarron/clipboard.js#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-clipboard-js.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-clipboard-js) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-clipboard-js.svg)](https://travis-ci.org/npmtest/node-npmtest-clipboard-js)
+#### basic test coverage for  [clipboard-js (v0.3.3)](https://github.com/lgarron/clipboard.js#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-clipboard-js.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-clipboard-js) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-clipboard-js.svg)](https://travis-ci.org/npmtest/node-npmtest-clipboard-js)
 
 #### A web shim to handle clipboard APIs across browsers using a simple Promise API.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-clipboard-js/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-clipboard-js/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-clipboard-js/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-clipboard-js/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-clipboard-js/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-clipboard-js/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-clipboard-js/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-clipboard-js/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-clipboard-js/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-clipboard-js/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-clipboard-js/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-clipboard-js/build/coverage.html/index.html)
 
@@ -76,7 +76,8 @@
         "url": "git+https://github.com/lgarron/clipboard.js.git"
     },
     "scripts": {},
-    "version": "0.3.3"
+    "version": "0.3.3",
+    "bin": {}
 }
 ```
 
